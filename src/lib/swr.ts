@@ -14,7 +14,7 @@ type Methods = (
 );
 
 export default function SWR(url: string, method: Methods = 'get') {
-    if (url == 'linkcord') url = 'https://api.lanyard.rest/v1/users/857316297233924116'
+    if (url == 'linkcord') url = 'https://api.lanyard.rest/v1/users/961348197568106516'
     if (url == 'github') url = 'https://api.github.com/users/'+config.github.username+'/repos';
 
     return useSWR(url, href => (
